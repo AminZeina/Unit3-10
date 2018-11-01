@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Created on: Oct 2018
+// Created by: Amin Zeina
+// Created for: ICS3U _
+// This program calculates average
+
+var totalOfNumbers : Float = 0
+var numberEntered : Float = 0
+var amountOfNumbers : Float = 0
+
+show("Type in the numbers to calculate average of. Enter ”-1” to stop.")
+
+while numberEntered != -1 {
+    // get number and add total of numbers, then add 1 to counter varible  
+    numberEntered = Float(askForNumber())
+    totalOfNumbers = totalOfNumbers + numberEntered
+    amountOfNumbers += 1 
+} 
+// calculate and show average
+let totalAverage : Float = (totalOfNumbers + 1) / (amountOfNumbers - 1)
+show("The Average is \(String(totalAverage))")
+</string>
+			<key>ModifiedRange</key>
+			<string>{145, 654}</string>
+			<key>OriginalContent</key>
+			<string>show("What is your name?")
+
+let name = ask("Name")
+
+show("Hi " + name)
+
+</string>
+			<key>OriginalRange</key>
+			<string>{145, 72}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Answers.playgroundchapter/Pages/Text.playgroundpage/Contents.swift</string>
+</dict>
+</plist>
